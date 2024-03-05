@@ -22,7 +22,7 @@ library by David Abrahams: to minimize boilerplate code in traditional
 extension modules by inferring type information using compile-time
 introspection.
 
-The main issue with Boost.Python—and the reason for creating such a
+The main issue with Boost. Python—and the reason for creating such a
 similar project—is Boost. Boost is an enormously large and complex suite
 of utility libraries that works with almost every C++ compiler in
 existence. This compatibility has its cost: arcane template tricks and
@@ -31,14 +31,14 @@ specimens. Now that C++11-compatible compilers are widely available,
 this heavy machinery has become an excessively large and unnecessary
 dependency.
 
-Think of this library as a tiny self-contained version of Boost.Python
-with everything stripped away that isn't relevant for binding
+Think of this library as a tiny self-contained version of Boost. Python
+with everything stripped away, isn't relevant for binding
 generation. Without comments, the core header files only require ~4K
 lines of code and depend on Python (3.6+, or PyPy) and the C++
 standard library. This compact implementation was possible thanks to
 some of the new C++11 language features (specifically: tuples, lambda
-functions and variadic templates). Since its creation, this library has
-grown beyond Boost.Python in many ways, leading to dramatically simpler
+functions, and variadic templates). Since its creation, this library has
+grown beyond Boost. Python in many ways, leads to dramatically simpler
 binding code in many common situations.
 
 Tutorial and reference documentation is provided at
